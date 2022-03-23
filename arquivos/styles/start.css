@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "quickSand";
+    src: url(../fontes/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: "overPass";
+    src: url(../fontes/Overpass-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Urbanist";
+    src: url(../fontes/Urbanist-VariableFont_wght.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #2a9df4;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#firstH1 {
+    font-family: "overPass", sans-serif;
+    font-size: 8rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 6rem;
+    margin: 1rem;
+}
+
+.index1Form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding: 5rem 0;
+    margin: 0.5rem 0.5rem;
+}
+
+.subBtn1 {
+    width: 20rem;
+    color: #FFFFFF;
+    font-family: "quickSand", arial, sans-serif;
+    padding: 0.5rem;
+    font-size: 3rem;
+    background: none;
+    border-radius: 3rem;
+    border: 0.3rem solid #FFFFFF;
+    transition: 0.3s ease;
+
+}
+.subBtn1:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: #2a9df4;
+    width: 25rem;
+}
