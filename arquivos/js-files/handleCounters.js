@@ -4,4 +4,3 @@ const countersInstance = ((counter = 0, wrongAnswerCounter = 0, rightAnswerCount
 })();
 
 export default countersInstance;
-module.exports = { countersInstance };
